@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte 1</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #6a0dad; /* Fondo morado */
+            color: #fff;
+            height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        .collage {
+            display: grid;
+            grid-template-columns: repeat(2, 200px); /* 2 columnas */
+            grid-template-rows: repeat(2, 200px); /* 2 filas */
+            gap: 10px;
+        }
+
+        .collage img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .back-link {
+            margin-top: 20px;
+            color: #ffb3ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .back-link:hover {
+            color: #ff66ff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mi reina hermosa</h1>
+    <p>Las fotos que me pasaste donde sales hermosa</p>
+
+    <!-- Collage de Imágenes -->
+    <div class="collage">
+        <img src="C:\Users\symga\OneDrive\Escritorio\fotos\ari1.jpg">
+        <img src="C:\Users\symga\OneDrive\Escritorio\fotos\ari2.jpg">
+        <img src="C:\Users\symga\OneDrive\Escritorio\fotos\ari3.jpg">
+        <img src="C:\Users\symga\OneDrive\Escritorio\fotos\ari4.jpg">
+    </div>
+
+    <!-- Enlace para regresar a la página principal -->
+    <a href="index.html" class="">Regresar a la Página Principal</a>
+
+</body>
+</html>
